@@ -1,0 +1,39 @@
+{
+  "name": "Todo",
+  "fields": [
+    {
+      "fieldName": "task",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "completed",
+      "fieldType": "Boolean"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipType": "one-to-one",
+      "otherEntityName": "category",
+      "otherEntityRelationshipName": "todo",
+      "relationshipName": "category",
+      "ownerSide": true
+    }
+  ],
+  "entityTableName": "todo",
+  "dto": "no",
+  "pagination": "no",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "applications": "*",
+  "microserviceName": "todo",
+  "clientRootFolder": "todo",
+  "databaseType": "sql",
+  "changelogDate": "20211221075326"
+}

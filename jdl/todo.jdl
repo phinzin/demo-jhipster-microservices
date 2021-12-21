@@ -1,0 +1,14 @@
+
+entity Todo {
+	task String,
+    description String,
+    completed Boolean
+}
+entity Category {
+	name String,
+    description String,
+    active Boolean
+}
+relationship OneToOne {
+	Todo{category} to Category
+}
