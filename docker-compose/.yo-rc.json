@@ -1,0 +1,11 @@
+{
+  "generator-jhipster": {
+    "appsFolders": ["gateway", "todo"],
+    "directoryPath": "..\\/",
+    "gatewayType": "SpringCloudGateway",
+    "clusteredDbApps": {},
+    "monitoring": "prometheus",
+    "serviceDiscoveryType": "consul",
+    "jwtSecretKey": "MzFkZWRmMzNkMDAwYWMxMzY2ZjEwNDY0NWUyMGVjOGFjMDI1NzQ2YjZjODNhNzdjOTQwZDVlNjE4NzBlNWJmMjk4ODVkOTMyZjc4MzdhODk3MzA3M2Y4MzJkYjMxMzZmZTE3YQ=="
+  }
+}

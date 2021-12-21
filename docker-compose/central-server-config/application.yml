@@ -1,0 +1,36 @@
+#common configuration shared between all applications
+configserver:
+  name: Docker JHipster Registry
+  status: Connected to Consul running in Docker
+
+jhipster:
+  security:
+    authentication:
+      jwt:
+        base64-secret: MzFkZWRmMzNkMDAwYWMxMzY2ZjEwNDY0NWUyMGVjOGFjMDI1NzQ2YjZjODNhNzdjOTQwZDVlNjE4NzBlNWJmMjk4ODVkOTMyZjc4MzdhODk3MzA3M2Y4MzJkYjMxMzZmZTE3YQ==
+    # oauth2:
+    #   client:
+    #     provider:
+    #       oidc:
+    #         issuer-uri: https://okta-devok12.okta.com
+    #     registration:
+    #       oidc:
+    #         client-id: 0oa3cw4tpqYgiWk2B5d7
+    #         client-secret: 0oa3cw4tpqYgiWk2B5d7
+    #         scope: openid,profile,email
+# spring:    
+#   security:
+#     oauth2:
+#         client:
+#             access-token-uri: https://dev-72388423-admin.okta.com/oauth2/default/v1/token
+#             user-authorization-uri: https://dev-72388423-admin.okta.com/oauth2/default/v1/authorize
+#             client-id: 0oa3d7rvd4x8lkX8S5d7
+#             client-secret: wEbgRwTUM-GHWEynBvHrbUI8w6lkMNJzD2i-8Dvy
+#             scope: openid profile email
+#         resource:
+#             user-info-uri: https://dev-72388423-admin.okta.com/oauth2/default/v1/userinfo
+management:
+  metrics:
+    export:
+      prometheus:
+        enabled: true
