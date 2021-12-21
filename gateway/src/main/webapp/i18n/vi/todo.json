@@ -1,0 +1,28 @@
+{
+  "gatewayApp": {
+    "todo": {
+      "home": {
+        "title": "Todos",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Thêm mới một Todo",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Todo",
+        "search": "Tìm Todo",
+        "notFound": "No Todos found"
+      },
+      "created": "Một Todo mới được tạo với định danh {{ param }}",
+      "updated": "Một Todo cập nhật với định danh {{ param }}",
+      "deleted": "Một Todo đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Todo {{ id }}?"
+      },
+      "detail": {
+        "title": "Todo"
+      },
+      "id": "ID",
+      "task": "Task",
+      "description": "Description",
+      "completed": "Completed",
+      "category": "Category"
+    }
+  }
+}
